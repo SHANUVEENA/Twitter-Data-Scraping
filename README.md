@@ -29,7 +29,7 @@ display(df)
 # Converting the dataframe into a dictionary
 data = df.to_dict(orient = 'records') 
 
-# Importing pymongo pacakage
+# Importing pymongo package
 import pymongo
 
 #Creating the connection between python and Mongodb
