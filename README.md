@@ -32,7 +32,7 @@ data = df.to_dict(orient = 'records')
 # Importing pymongo package
 import pymongo
 
-#Creating the connection between python and Mongodb
+#Creating a connection between python and Mongodb
 client = pymongo.MongoClient("mongodb://localhost:27017")
 
 # Defining Database name
@@ -45,5 +45,5 @@ from datetime import datetime
 date_time = datetime.now().strftime("%d_%m_%y_%I_%M_%S_%p")
 print("Twitter_data_" + date_time)
 
-# Calling the connection
+# Calling for the connection
 db.Twitter_data_26_01_23_05_06_53_PM.insert_many(data)
