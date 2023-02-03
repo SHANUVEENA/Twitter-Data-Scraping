@@ -1,5 +1,5 @@
 # Twitter-Data-Scraping
-This project scrapes the data using Python Snscrape Library and package and visualize the scarped data using Streamlet.
+This project scrapes the Twitter data using Python Snscrape Library and package and export it to the MongoDB DataBase
 
 
 pip install snscrape # Installing Snsrape
